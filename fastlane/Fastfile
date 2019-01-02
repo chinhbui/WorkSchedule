@@ -41,7 +41,7 @@ platform :ios do
 		silent: true,
 	    clean: true
     )
-	
+	enable_automatic_code_signing(path: "WorkSchedule.xcodeproj")
 	upload_hockey(env:env, notes:"enterprise", release_type:"3")
  end
 
