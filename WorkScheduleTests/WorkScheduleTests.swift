@@ -57,7 +57,7 @@ class WorkScheduleTests: XCTestCase {
         XCTAssertNil(controller.dayView.delegate)
     }
     func testTimeStrings24HWorkTimeHalfHour() {
-        let timeResult = Generator.timeStrings24HWorkTimeHalfHour2()
+        let timeResult = Generator.timeStrings24HWorkTimeHalfHour()
         let expectResult = ["08:00",
                             "08:30",
                             "09:00",
