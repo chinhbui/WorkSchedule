@@ -28,7 +28,9 @@ platform :ios do
 	#get_certificates           # invokes cert
   	#get_provisioning_profile   # invokes sigh
   	#sync_code_signing	
-  	setup_travis
+  	#setup_travis
+  	enable_automatic_code_signing(path: "../WorkSchedule.xcodeproj",
+  		use_automatic_signing: true)
   	gym(
     	workspace: "./WorkSchedule.xcworkspace",
     	output_name: env + ".ipa",
