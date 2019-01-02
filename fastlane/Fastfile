@@ -27,7 +27,8 @@ platform :ios do
 	increment_build_number
 	#get_certificates           # invokes cert
   	#get_provisioning_profile   # invokes sigh
-  	sync_code_signing
+  	#sync_code_signing	
+  	setup_travis
   	gym(
     	workspace: "./WorkSchedule.xcworkspace",
     	output_name: env + ".ipa",
