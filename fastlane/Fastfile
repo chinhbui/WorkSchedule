@@ -25,8 +25,9 @@ platform :ios do
 
     env = "enterprise"
 	increment_build_number
-	get_certificates           # invokes cert
-  	get_provisioning_profile   # invokes sigh
+	#get_certificates           # invokes cert
+  	#get_provisioning_profile   # invokes sigh
+  	sync_code_signing
   	gym(
     	workspace: "./WorkSchedule.xcworkspace",
     	output_name: env + ".ipa",
