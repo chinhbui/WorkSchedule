@@ -25,6 +25,8 @@ platform :ios do
 
     env = "enterprise"
 	increment_build_number
+	get_certificates           # invokes cert
+  	get_provisioning_profile   # invokes sigh
   	gym(
     	workspace: "./WorkSchedule.xcworkspace",
     	output_name: env + ".ipa",
@@ -41,7 +43,7 @@ platform :ios do
 		silent: true,
 	    clean: true
     )
-	enable_automatic_code_signing(path: "WorkSchedule.xcodeproj")
+	# enable_automatic_code_signing(path: "WorkSchedule.xcodeproj")
 	upload_hockey(env:env, notes:"enterprise", release_type:"3")
  end
 
