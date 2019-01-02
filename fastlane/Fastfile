@@ -31,6 +31,7 @@ platform :ios do
     	output_directory: outputDirectory,
     	scheme: "WorkSchedule",
     	export_method: "enterprise",
+    	export_xcargs: "-allowProvisioningUpdates",
     	export_options: {
     		signingStyle: "automatic",
     		uploadBitcode: true,
