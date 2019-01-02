@@ -5,7 +5,54 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>8F384684-5B08-4A3F-BA09-DD61B550CD81</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>8F384684-5B08-4A3F-BA09-DD61B550CD81.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>signature</key>
+			<string>WorkScheduleTests-ckwqlczafbeanufyhzbqdxjowjrg</string>
+			<key>timeStartedRecording</key>
+			<real>568090065.78003299</real>
+			<key>timeStoppedRecording</key>
+			<real>568090066.89771903</real>
+			<key>title</key>
+			<string>Build target WorkScheduleTests</string>
+			<key>uniqueIdentifier</key>
+			<string>8F384684-5B08-4A3F-BA09-DD61B550CD81</string>
+		</dict>
+		<key>BDF4C076-8D76-4896-AA6C-5D9A32EAEA85</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>BDF4C076-8D76-4896-AA6C-5D9A32EAEA85.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>signature</key>
+			<string>WorkSchedule-ckwqlczafbeanufyhzbqdxjowjrg</string>
+			<key>timeStartedRecording</key>
+			<real>568104404.18117297</real>
+			<key>timeStoppedRecording</key>
+			<real>568104430.49675906</real>
+			<key>title</key>
+			<string>Build target WorkSchedule</string>
+			<key>uniqueIdentifier</key>
+			<string>BDF4C076-8D76-4896-AA6C-5D9A32EAEA85</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>

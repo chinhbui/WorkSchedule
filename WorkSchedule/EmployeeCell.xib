@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="285" id="MnN-m1-qNA" customClass="EmployeeCell" customModule="WorkSchedule" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="285"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MnN-m1-qNA" id="YFj-5z-ayx">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="284.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="375" translatesAutoresizingMaskIntoConstraints="NO" id="JES-nz-tHF">
+                        <rect key="frame" x="20" y="10" width="295" height="264.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1X-zR-jWX">
+                        <rect key="frame" x="323" y="119.5" width="46" height="46"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Q1X-zR-jWX" secondAttribute="height" id="Tb3-7v-Kbn"/>
+                        </constraints>
+                        <connections>
+                            <action selector="checkAction:" destination="MnN-m1-qNA" eventType="touchUpInside" id="mza-Qs-Jam"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="JES-nz-tHF" firstAttribute="leading" secondItem="YFj-5z-ayx" secondAttribute="leading" constant="20" id="Emx-ll-mZH"/>
+                    <constraint firstAttribute="bottom" secondItem="JES-nz-tHF" secondAttribute="bottom" constant="10" id="Eoa-VD-SPk"/>
+                    <constraint firstItem="Q1X-zR-jWX" firstAttribute="centerY" secondItem="YFj-5z-ayx" secondAttribute="centerY" id="JMp-zm-pIh"/>
+                    <constraint firstAttribute="trailing" secondItem="Q1X-zR-jWX" secondAttribute="trailing" constant="6" id="Pwy-Qi-sfJ"/>
+                    <constraint firstItem="Q1X-zR-jWX" firstAttribute="leading" secondItem="JES-nz-tHF" secondAttribute="trailing" constant="8" id="USC-Sf-lKX"/>
+                    <constraint firstAttribute="trailing" secondItem="JES-nz-tHF" secondAttribute="trailing" constant="60" id="V2B-0j-LYv"/>
+                    <constraint firstItem="JES-nz-tHF" firstAttribute="top" secondItem="YFj-5z-ayx" secondAttribute="top" constant="10" id="Z2f-9g-FAQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnCheck" destination="Q1X-zR-jWX" id="NkB-ru-zYG"/>
+                <outlet property="lblEmployeeName" destination="JES-nz-tHF" id="oTg-ha-KUN"/>
+            </connections>
+            <point key="canvasLocation" x="101.59999999999999" y="136.28185907046478"/>
+        </tableViewCell>
+    </objects>
+</document>
