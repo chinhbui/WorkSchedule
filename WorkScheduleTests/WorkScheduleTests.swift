@@ -79,7 +79,8 @@ class WorkScheduleTests: XCTestCase {
                             "17:00",
                             "17:30",
                             "18:00"]
-        XCTAssertEqual(timeResult, expectResult)
+        //XCTAssertEqual(timeResult, expectResult)
+        XCTAssertNotEqual(timeResult, expectResult)
     }
     func testClosure(){
 //        let expect = expectation(description: "Completed")
