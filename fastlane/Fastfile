@@ -15,9 +15,46 @@ update_fastlane
 
 default_platform(:ios)
 
+hockeyApiToken = "4764cedb47cc42b0bb349a8bf6e934b1"
+outputDirectory = "fastlane/builds"
+
 platform :ios do
   desc "Description of what the lane does"
   lane :test do
     run_tests(scheme: "WorkScheduleTests")
+
+    env = "enterprise"
+	increment_build_number
+  	gym(
+    	workspace: "./WorkSchedule.xcworkspace",
+    	output_name: env + ".ipa",
+    	output_directory: outputDirectory,
+    	scheme: "WorkSchedule",
+    	export_method: "enterprise",
+    	export_options: {
+    		signingStyle: "automatic",
+    		uploadBitcode: true,
+    		uploadSymbols: true,
+    		compileBitcode: false
+	    },
+		silent: true,
+	    clean: true
+    )
+	
+	upload_hockey(env:env, notes:"enterprise", release_type:"3")
+ end
+
+ desc "upload to hockey"
+  lane :upload_hockey do |options|
+
+    
+  	hockey(
+  		api_token: hockeyApiToken,
+  		ipa: "fastlane/builds/"+options[:env]+".ipa",
+  		dsym: "fastlane/builds/"+options[:env]+".app.dSYM.zip",
+      	notes: "",
+      	notes_type: "1",
+      	release_type: options[:release_type]
+  	)
   end
 end
