@@ -6,30 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>8F384684-5B08-4A3F-BA09-DD61B550CD81</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
-			<key>fileName</key>
-			<string>8F384684-5B08-4A3F-BA09-DD61B550CD81.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>signature</key>
-			<string>WorkScheduleTests-ckwqlczafbeanufyhzbqdxjowjrg</string>
-			<key>timeStartedRecording</key>
-			<real>568090065.78003299</real>
-			<key>timeStoppedRecording</key>
-			<real>568090066.89771903</real>
-			<key>title</key>
-			<string>Build target WorkScheduleTests</string>
-			<key>uniqueIdentifier</key>
-			<string>8F384684-5B08-4A3F-BA09-DD61B550CD81</string>
-		</dict>
-		<key>BDF4C076-8D76-4896-AA6C-5D9A32EAEA85</key>
+		<key>0C28DA3A-3258-4F10-B74A-CE6710D68711</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -38,19 +15,111 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>BDF4C076-8D76-4896-AA6C-5D9A32EAEA85.xcactivitylog</string>
+			<string>0C28DA3A-3258-4F10-B74A-CE6710D68711.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>signature</key>
 			<string>WorkSchedule-ckwqlczafbeanufyhzbqdxjowjrg</string>
 			<key>timeStartedRecording</key>
-			<real>568104404.18117297</real>
+			<real>568278109.634606</real>
 			<key>timeStoppedRecording</key>
-			<real>568104430.49675906</real>
+			<real>568278111.89413404</real>
 			<key>title</key>
 			<string>Build target WorkSchedule</string>
 			<key>uniqueIdentifier</key>
-			<string>BDF4C076-8D76-4896-AA6C-5D9A32EAEA85</string>
+			<string>0C28DA3A-3258-4F10-B74A-CE6710D68711</string>
+		</dict>
+		<key>569B96A2-1F5A-410B-A884-4A7F52166662</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>569B96A2-1F5A-410B-A884-4A7F52166662.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Neon-haogewodhijgthdzchkzxzprjzwz</string>
+			<key>timeStartedRecording</key>
+			<real>568277101.50435495</real>
+			<key>timeStoppedRecording</key>
+			<real>568277102.32727396</real>
+			<key>title</key>
+			<string>Build target Neon</string>
+			<key>uniqueIdentifier</key>
+			<string>569B96A2-1F5A-410B-A884-4A7F52166662</string>
+		</dict>
+		<key>B66D2E5A-41DC-461C-8313-37A8AEACEE13</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>B66D2E5A-41DC-461C-8313-37A8AEACEE13.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>SnapKit-haogewodhijgthdzchkzxzprjzwz</string>
+			<key>timeStartedRecording</key>
+			<real>568277101.50204301</real>
+			<key>timeStoppedRecording</key>
+			<real>568277101.51563096</real>
+			<key>title</key>
+			<string>Build target SnapKit</string>
+			<key>uniqueIdentifier</key>
+			<string>B66D2E5A-41DC-461C-8313-37A8AEACEE13</string>
+		</dict>
+		<key>E4E78920-5032-45B9-B0E5-822B26623358</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>E4E78920-5032-45B9-B0E5-822B26623358.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Pods-WorkSchedule-haogewodhijgthdzchkzxzprjzwz</string>
+			<key>timeStartedRecording</key>
+			<real>568277102.17684901</real>
+			<key>timeStoppedRecording</key>
+			<real>568277102.52409506</real>
+			<key>title</key>
+			<string>Build target Pods-WorkSchedule</string>
+			<key>uniqueIdentifier</key>
+			<string>E4E78920-5032-45B9-B0E5-822B26623358</string>
+		</dict>
+		<key>FDED17D4-0A41-4795-B433-0B0B2D15AF5A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>FDED17D4-0A41-4795-B433-0B0B2D15AF5A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>DateToolsSwift-haogewodhijgthdzchkzxzprjzwz</string>
+			<key>timeStartedRecording</key>
+			<real>568277101.50522196</real>
+			<key>timeStoppedRecording</key>
+			<real>568277102.39011896</real>
+			<key>title</key>
+			<string>Build target DateToolsSwift</string>
+			<key>uniqueIdentifier</key>
+			<string>FDED17D4-0A41-4795-B433-0B0B2D15AF5A</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

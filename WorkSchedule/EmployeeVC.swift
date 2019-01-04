@@ -33,7 +33,11 @@ class EmployeeVC: UIViewController {
             endButton.setTitle(stringHour+":"+stringMinute, for: .normal)
         }
     }
-    var employeeName : String?
+    var employeeName : String? {
+        didSet {
+            self.navigationItem.rightBarButtonItem?.isEnabled = true
+        }
+    }
     let topPadding = 45
     let timePicker = UIDatePicker()
     
@@ -86,7 +90,9 @@ class EmployeeVC: UIViewController {
         tableView.dataSource = employeeDataSource
         tableView.reloadData()
         
-        let zeroDate = Date(dateString: "00:00", format: "HH:mm", timeZone: TimeZone.ReferenceType.default)
+        //let zeroDate = Date(dateString: "00:00", format: "HH:mm", timeZone: TimeZone.ReferenceType.default)
+        let now = Date()
+        let zeroDate = Date(year: now.year, month: now.month, day: now.day, hour: 0, minute: 0, second: now.second)
         startDate = zeroDate
         endDate = zeroDate.add(TimeChunk.dateComponents(minutes: 30))
         
@@ -94,6 +100,7 @@ class EmployeeVC: UIViewController {
         self.navigationItem.leftBarButtonItem = left
         let right = UIBarButtonItem(title: "SAVE", style: .plain, target: self, action: #selector(saveAction(send:)) )
         self.navigationItem.rightBarButtonItem = right
+        self.navigationItem.rightBarButtonItem?.isEnabled = false
         self.edgesForExtendedLayout = []
         
         let cellAction = NSNotification.Name(rawValue: "CellAction")

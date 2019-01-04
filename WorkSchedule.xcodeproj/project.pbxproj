@@ -77,7 +77,7 @@
 		F3F5360621D201A2005EA71F /* DaySymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A661D521D0B55B000AF954 /* DaySymbolsView.swift */; };
 		F3F5360721D201A4005EA71F /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A661D621D0B55B000AF954 /* DayView.swift */; };
 		F3F5360D21D33E26005EA71F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5360C21D33E26005EA71F /* AppDelegate.swift */; };
-		F3F5360F21D33E60005EA71F /* MassiveAppDelegate-Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5360E21D33E60005EA71F /* MassiveAppDelegate-Commands.swift */; };
+		F3F5360F21D33E60005EA71F /* AppDelegate-Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5360E21D33E60005EA71F /* AppDelegate-Commands.swift */; };
 		F3F5361121D35404005EA71F /* EmployeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5361021D35404005EA71F /* EmployeeVC.swift */; };
 		F3F5361321D36092005EA71F /* CellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5361221D36092005EA71F /* CellConfigurator.swift */; };
 		F3F5361521D3641F005EA71F /* EmployeeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5361421D3641F005EA71F /* EmployeeDataSource.swift */; };
@@ -154,7 +154,7 @@
 		F3A661D621D0B55B000AF954 /* DayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
 		F3A661F621D0C1A9000AF954 /* WorkSchedule-prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WorkSchedule-prefix.h"; sourceTree = SOURCE_ROOT; };
 		F3F5360C21D33E26005EA71F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3F5360E21D33E60005EA71F /* MassiveAppDelegate-Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MassiveAppDelegate-Commands.swift"; sourceTree = "<group>"; };
+		F3F5360E21D33E60005EA71F /* AppDelegate-Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate-Commands.swift"; sourceTree = "<group>"; };
 		F3F5361021D35404005EA71F /* EmployeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeVC.swift; sourceTree = "<group>"; };
 		F3F5361221D36092005EA71F /* CellConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfigurator.swift; sourceTree = "<group>"; };
 		F3F5361421D3641F005EA71F /* EmployeeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataSource.swift; sourceTree = "<group>"; };
@@ -228,7 +228,7 @@
 			children = (
 				F3A661B321D0B55B000AF954 /* Libs */,
 				F3F5360C21D33E26005EA71F /* AppDelegate.swift */,
-				F3F5360E21D33E60005EA71F /* MassiveAppDelegate-Commands.swift */,
+				F3F5360E21D33E60005EA71F /* AppDelegate-Commands.swift */,
 				F3A6611221D0B21A000AF954 /* ScheduleVC.swift */,
 				F3F5361021D35404005EA71F /* EmployeeVC.swift */,
 				F30B257421D4B852001F37C3 /* CellActions.swift */,
@@ -513,7 +513,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3F5360F21D33E60005EA71F /* MassiveAppDelegate-Commands.swift in Sources */,
+				F3F5360F21D33E60005EA71F /* AppDelegate-Commands.swift in Sources */,
 				F3A6611321D0B21A000AF954 /* ScheduleVC.swift in Sources */,
 				F30B257521D4B852001F37C3 /* CellActions.swift in Sources */,
 				F3A661F421D0B55B000AF954 /* DayView.swift in Sources */,
